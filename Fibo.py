@@ -16,7 +16,7 @@ while(num > fibonacci(cont)):
 
 resultado_proximo = fibonacci(cont)
 
-if(resultado_proximo == num):
+if(resultado_proximo == num or num == 0):
     print(f"O numero {num} pertence à sequência de Fibonacci")
 else:
     print(f"O numero {num} não pertence à sequência de Fibonacci, o numero mais proximo é {resultado_proximo}")
